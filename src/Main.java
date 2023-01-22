@@ -6,7 +6,7 @@ public class Main {
         int bonus;
 
         if (depositAccount > 1000) {
-            bonus = depositAccount / 100;//формула подсчета бонусных рублей за каждые доп внесенные 100р на депозит.
+            bonus = depositAccount / 100;
         } else {
             bonus = 0;
         }
